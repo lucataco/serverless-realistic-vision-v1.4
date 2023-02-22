@@ -1,0 +1,13 @@
+{
+    "name": "Realistic Vision v1.4",
+    "category": "Computer Vision",
+    "example_input": {
+        "prompt": "scenery, village, outdoors, sky, clouds",
+        "num_inference_steps": 20,
+        "guidance_scale": 7
+    },
+    "example_output": {
+        "base64_output": "<BASE64_IMAGE>"
+    },
+    "version": "1"
+}

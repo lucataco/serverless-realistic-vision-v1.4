@@ -1,7 +1,7 @@
 
 # 🍌 Banana Serverless
 
-This repo gives a framework to serve ML models in production using simple HTTP servers.
+This repo gives a basic framework for serving SG161222I's Realistic Vision v1.4 model in production using Banana's serverless platform. Original model can be found [here](https://huggingface.co/SG161222/Realistic_Vision_V1.4)
 
 # Quickstart
 **[Follow the quickstart guide in Banana's documentation to use this repo](https://docs.banana.dev/banana-docs/quickstart).** 
