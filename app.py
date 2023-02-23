@@ -12,7 +12,7 @@ def init():
     global model
     
     model_name = os.getenv("MODEL_NAME")
-    model = StableDiffusionPipeline.from_pretrained(model_name).to("cuda")
+    model = StableDiffusionPipeline.from_pretrained(model_name, safety_checker=None).to("cuda")
     
 
 # Inference is ran for every server call

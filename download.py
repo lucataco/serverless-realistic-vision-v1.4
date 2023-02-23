@@ -6,7 +6,7 @@ from diffusers import StableDiffusionPipeline
 def download_model():
     # do a dry run of loading the huggingface model, which will download weights
     model_name = os.getenv("MODEL_NAME")
-    model = StableDiffusionPipeline.from_pretrained(model_name)
+    model = StableDiffusionPipeline.from_pretrained(model_name, safety_checker=None)
     
 
 if __name__ == "__main__":
